@@ -1,0 +1,224 @@
+body {
+    background-color: #030303;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+  }
+  
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-size: 32px;
+    text-align: center;
+    width: 600px;
+  }
+  
+  .input-field, .radio-group, button {
+    width: 600px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #030303;
+  }
+  
+  .radio-group input[type="radio"]:checked + label {
+    background-color: #6741D9;
+    color: #FFFFFF;
+  }
+  
+  input[type="number"]:disabled, .radio-group input[type="radio"]:disabled + label {
+    background-color: #C2C2C2;
+    border-color: #C2C2C2;
+    color: #FFFFFF;
+  }
+  
+  button {
+    background-color: #6741D9;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 1px solid #F0C3F1;
+  }
+  
+  button:active {
+    border: 1px solid #F0C3F1;
+  }
+  
+  button:disabled {
+    background-color: #C2C2C2;
+  }
+  
+  .graph-container {
+    width: 600px;
+    margin: 20px auto;
+  }
+  
+  .graph-bar {
+    background-color: #F0C3F1;
+  }
+  
+  .axis, .markings {
+    color: #FFFFFF;
+  }
+
+  .dashboard-container {
+    color: #FFFFFF;
+    background-color: #030303;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+  }
+  
+  .venue-info {
+    text-align: center;
+  }
+  
+  .venue-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 200px;
+  }
+  
+  .charge-toggle {
+    margin: 20px 0;
+  }
+  
+  .toggle-label {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .amount-input {
+    margin: 20px 0;
+  }
+  
+  .amount-input label, .amount-input span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .amount-input input[type='number'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+    color: #FFFFFF;
+  }
+  
+  .amount-input input[type='number']:disabled {
+    background: #C2C2C2;
+    color: #666666;
+  }
+  
+  .save-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6741D9;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #8561c5;
+  }
+  
+  .save-button:disabled {
+    background-color: #C2C2C2;
+    cursor: not-allowed;
+  }
+  
+  /* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #030303;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dashboard-container {
+    width: 80%; /* Adjust the width as necessary */
+    max-width: 1024px; /* Set a max-width to keep the design consistent */
+  }
+  
+  .venue-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .charge-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .charge-toggle span {
+    margin-right: 10px;
+  }
+  
+  .charge-toggle input[type='radio'] {
+    accent-color: #6741D9; /* Color the radio buttons */
+  }
+  
+  .amount-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .amount-input label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .amount-input input[type='number'] {
+    width: 60px; /* Adjust the width as necessary */
+    padding: 10px;
+    margin: 5px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  
+  .save-button {
+    padding: 10px 30px;
+    background-color: #6741D9;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #8561c5;
+  }
+  
+  .save-button:disabled {
+    background-color: #C2C2C2;
+    cursor: not-allowed;
+  }
+  
+
+  
